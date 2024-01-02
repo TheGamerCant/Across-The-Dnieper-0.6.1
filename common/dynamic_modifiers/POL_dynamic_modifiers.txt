@@ -1,0 +1,34 @@
+POL_donald_tusk_dynamic_modifier = { 
+	enable = { has_country_flag = POL_donald_tusk_is_current_pm_flag }
+
+	neoliberal_drift = 0.1
+	political_power_factor = 0.1
+	political_advisor_cost_factor = -0.15
+	stability_factor = 0.1
+	western_acceptance = 50
+	improve_relations_maintain_cost_factor = -0.2
+}
+
+POL_ewa_kopacz_dynamic_modifier = { 
+	enable = { has_country_flag = POL_ewa_kopacz_is_current_pm_flag }
+
+	stability_weekly = -0.001
+	political_power_gain = -0.1
+}
+
+POL_beata_szydlo_dynamic_modifier = { 
+	enable = { has_country_flag = POL_beata_szydlo_is_current_pm_flag }
+
+	political_power_gain = 0.15
+	neoconservative_drift = 0.08
+	war_support_factor = 0.1
+	stability_factor = -0.03
+}
+
+POL_mateusz_morawiecki_dynamic_modifier = { 
+	enable = { has_country_flag = POL_mateusz_morawiecki_is_current_pm_flag }
+
+	consumer_goods_factor = -0.075
+	production_factory_max_efficiency_factor = 0.1
+	production_speed_buildings_factor = 0.1
+}

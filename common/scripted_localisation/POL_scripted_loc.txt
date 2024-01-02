@@ -1,0 +1,156 @@
+defined_text = {
+    name = get_president_or_pm_view
+	
+    text = {
+        trigger = {
+            has_country_flag = POL_is_on_prime_minister_view
+        }
+        localization_key = "POL_switch_to_president"
+    }
+	
+	text = {
+        trigger = {
+        }
+        localization_key = "POL_switch_to_pm"
+    }
+}
+
+defined_text = {
+    name = POLAND_get_pm_image
+	
+    text = {
+        trigger = {
+            has_country_flag = POL_donald_tusk_is_current_pm_flag
+        }
+        localization_key = "GFX_POL_Donald_Tusk_large"
+    }
+	text = {
+        trigger = {
+            has_country_flag = POL_ewa_kopacz_is_current_pm_flag
+        }
+        localization_key = "GFX_POL_Ewa_Kopacz_large"
+    }
+	text = {
+        trigger = {
+            has_country_flag = POL_beata_szydlo_is_current_pm_flag
+        }
+        localization_key = "GFX_POL_Beata_Szydlo_large"
+    }
+	text = {
+        trigger = {
+            has_country_flag = POL_mateusz_morawiecki_is_current_pm_flag
+        }
+        localization_key = "GFX_POL_Mateusz_Morawiecki_large"
+    }
+	
+	text = {
+        trigger = {
+        }
+        localization_key = ""
+    }
+}
+
+
+defined_text = {
+    name = get_current_pm_name
+	
+    text = {
+        trigger = {
+            has_country_flag = POL_donald_tusk_is_current_pm_flag
+        }
+        localization_key = "POL_donald_tusk"
+    }
+	text = {
+        trigger = {
+            has_country_flag = POL_ewa_kopacz_is_current_pm_flag
+        }
+        localization_key = "POL_ewa_kopacz"
+    }
+	text = {
+        trigger = {
+            has_country_flag = POL_beata_szydlo_is_current_pm_flag
+        }
+        localization_key = "POL_beata_szydlo"
+    }
+	text = {
+        trigger = {
+            has_country_flag = POL_mateusz_morawiecki_is_current_pm_flag
+        }
+        localization_key = "POL_mateusz_morawiecki"
+    }
+	
+	text = {
+        trigger = {
+        }
+        localization_key = "NO PM BLYAT"
+    }
+}
+
+defined_text = {
+    name = get_current_pm_trait
+	
+    text = {
+        trigger = {
+            has_country_flag = POL_donald_tusk_is_current_pm_flag
+        }
+        localization_key = "POL_donald_tusk_trait_tt"
+    }
+	text = {
+        trigger = {
+            has_country_flag = POL_ewa_kopacz_is_current_pm_flag
+        }
+        localization_key = "POL_ewa_kopacz_trait_tt"
+    }
+	text = {
+        trigger = {
+            has_country_flag = POL_beata_szydlo_is_current_pm_flag
+        }
+        localization_key = "POL_beata_szydlo_trait_tt"
+    }
+	text = {
+        trigger = {
+            has_country_flag = POL_mateusz_morawiecki_is_current_pm_flag
+        }
+        localization_key = "POL_mateusz_morawiecki_trait_tt"
+    }
+	
+	text = {
+        trigger = {
+        }
+        localization_key = ""
+    }
+}
+defined_text = {
+    name = get_current_pm_tt_delayed
+	
+    text = {
+        trigger = {
+            has_country_flag = POL_donald_tusk_is_current_pm_flag
+        }
+        localization_key = "POL_donald_tusk_tt_delayed"
+    }
+	text = {
+        trigger = {
+            has_country_flag = POL_ewa_kopacz_is_current_pm_flag
+        }
+        localization_key = "POL_ewa_kopacz_tt_delayed"
+    }
+	text = {
+        trigger = {
+            has_country_flag = POL_beata_szydlo_is_current_pm_flag
+        }
+        localization_key = "POL_beata_szydlo_tt_delayed"
+    }
+	text = {
+        trigger = {
+            has_country_flag = POL_mateusz_morawiecki_is_current_pm_flag
+        }
+        localization_key = "POL_mateusz_morawiecki_tt_delayed"
+    }
+	
+	text = {
+        trigger = {
+        }
+        localization_key = ""
+    }
+}
